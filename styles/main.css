@@ -1,0 +1,63 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+#dag-name {
+    font-weight: bold;
+}
+
+#dag svg {
+    border: 1px solid #999;
+	height: 1000px  !important;
+	width: 100%;
+}
+
+#dag text {
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+    font-size: 14px;
+	color: #fff !important;
+}
+
+#dag .node rect {
+    stroke-width: 2px;
+    stroke: #326DE6;
+    fill: #10A1D8 !important;
+}
+
+#dag .node .label {
+	fill: #fff;
+}
+
+#dag .edge-label {
+	stroke: #000;
+}
+
+#dag .edge rect {
+    fill: #fff;
+	stroke: none;	
+}
+
+#dag .edge path {
+    fill: none;
+    stroke: #CE0058;
+    stroke-width: 1.5px;
+}
+
+#arrowhead {
+	stroke: #CE0058;
+	fill: #CE0058 !important;
+}
+
+a {
+	
+	color: #fff;
+}
